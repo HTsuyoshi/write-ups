@@ -5,7 +5,7 @@ import base64
 import codecs
 
 if __name__ == '__main__':
-    r = remote('socket.cryptohack.org', 13377, level = 'debug')
+    r = remote('socket.cryptohack.org', 13377)
 
     def json_recv():
         line = r.recvline()
