@@ -47,7 +47,7 @@ if __name__ == '__main__':
     print_frequency(total)
     dic = {}
 
-    # And then you discover http://www.quipqiup.com/ lol
+    # And then you find http://www.quipqiup.com/ lol
 
     flag = 'well done the level four password is brute'
     log.info(f'Flag: {flag}')
