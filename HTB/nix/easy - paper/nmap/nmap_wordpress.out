@@ -1,0 +1,18 @@
+Starting Nmap 7.92 ( https://nmap.org ) at 2022-02-14 07:45 -03
+Nmap scan report for office.paper (10.10.11.143)
+Host is up (0.63s latency).
+Not shown: 997 closed tcp ports (conn-refused)
+PORT    STATE SERVICE  VERSION
+22/tcp  open  ssh      OpenSSH 8.0 (protocol 2.0)
+80/tcp  open  http     Apache httpd 2.4.37 ((centos) OpenSSL/1.1.1k mod_fcgid/2.3.9)
+|_http-server-header: Apache/2.4.37 (centos) OpenSSL/1.1.1k mod_fcgid/2.3.9
+| http-wordpress-enum:
+| Search limited to top 100 themes/plugins
+|   themes
+|     twentysixteen 2.0
+|_    twentyseventeen 2.2
+443/tcp open  ssl/http Apache httpd 2.4.37 ((centos) OpenSSL/1.1.1k mod_fcgid/2.3.9)
+|_http-server-header: Apache/2.4.37 (centos) OpenSSL/1.1.1k mod_fcgid/2.3.9
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 89.09 seconds
