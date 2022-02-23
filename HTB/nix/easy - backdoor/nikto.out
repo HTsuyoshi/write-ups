@@ -1,0 +1,33 @@
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          10.10.11.125
++ Target Hostname:    10.10.11.125
++ Target Port:        80
++ Start Time:         2022-02-20 02:37:53 (GMT-3)
+---------------------------------------------------------------------------
++ Server: Apache/2.4.41 (Ubuntu)
++ The anti-clickjacking X-Frame-Options header is not present.
++ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ Uncommon header 'link' found, with contents: <http://10.10.11.125/>; rel=shortlink
++ The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
++ Uncommon header 'x-redirect-by' found, with contents: WordPress
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ Web Server returns a valid response with junk HTTP methods, this may cause false positives.
++ Server leaks inodes via ETags, header found with file /readme.html, fields: 0x1cb2 0x5cd2bb510074f 
++ /wp-links-opml.php: This WordPress script reveals the installed version.
++ OSVDB-3092: /license.txt: License file found may identify site software.
++ Cookie wordpress_test_cookie created without the httponly flag
++ OSVDB-3268: /wp-content/uploads/: Directory indexing found.
++ /wp-content/uploads/: Wordpress uploads directory is browsable. This may reveal sensitive information
++ /wp-login.php: Wordpress login found
++ 7523 requests: 3 error(s) and 13 item(s) reported on remote host
++ End Time:           2022-02-20 03:14:01 (GMT-3) (2168 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+
+
+      *********************************************************************
+      Portions of the server's headers (Apache/2.4.41) are not in
+      the Nikto database or are newer than the known string. Would you like
+      to submit this information (*no server specific data*) to CIRT.net
+      for a Nikto update (or you may email to sullo@cirt.net) (y/n)? 

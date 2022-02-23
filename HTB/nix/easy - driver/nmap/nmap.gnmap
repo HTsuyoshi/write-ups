@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Sun Feb 20 02:21:34 2022 as: nmap -sT -sV -Pn -oA nmap 10.10.11.106
+Host: 10.10.11.106 ()	Status: Up
+Host: 10.10.11.106 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 10.0/, 135/open/tcp//msrpc//Microsoft Windows RPC/, 445/open/tcp//microsoft-ds//Microsoft Windows 7 - 10 microsoft-ds (workgroup: WORKGROUP)/	Ignored State: filtered (997)
+# Nmap done at Sun Feb 20 02:22:09 2022 -- 1 IP address (1 host up) scanned in 35.29 seconds

@@ -1,0 +1,13 @@
+# Nmap 7.92 scan initiated Sun Feb 20 02:28:48 2022 as: nmap --script=msrpc-enum -oN nmap/msrpc-enum.nmap 10.10.11.106
+Nmap scan report for 10.10.11.106
+Host is up (0.26s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+135/tcp open  msrpc
+445/tcp open  microsoft-ds
+
+Host script results:
+|_msrpc-enum: NT_STATUS_ACCESS_DENIED
+
+# Nmap done at Sun Feb 20 02:29:12 2022 -- 1 IP address (1 host up) scanned in 23.39 seconds
