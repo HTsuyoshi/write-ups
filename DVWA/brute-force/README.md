@@ -1,4 +1,4 @@
-# Brute Force
+# Brute force
 
 #### Low
 
