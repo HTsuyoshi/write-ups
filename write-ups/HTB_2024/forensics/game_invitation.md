@@ -107,19 +107,4 @@ Instead of using the function `eval()` we will print the value of `Iwlh` obtaini
 
 ![macro argument](/img/game_invitation_flag.png)
 
-
-Flag:HTB{m4ld0cs_4r3_g3tt1ng_Tr1cki13r} 
-
->! spoiler
-
-Here's a simple footnote,[^1] and here's a longer one.[^bignote]
-
-[^1]: This is the first footnote.
-
-[^bignote]: Here's one with multiple paragraphs and code.
-
-    Indent paragraphs to include them in the footnote.
-
-    `{ my code }`
-
-    Add as many paragraphs as you like.
+Flag: HTB{m4ld0cs_4r3_g3tt1ng_Tr1cki13r} 
