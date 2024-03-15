@@ -1,0 +1,69 @@
+pre { line-height: 125%; }
+td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.codehilite, pre.codehilite { background:#181a1f; color:#abb2bf }
+.codehilite pre  { background:#181a1f }
+.codehilite .hll { background:#181a1f }
+.codehilite .c   { color:#5c6370; font-style:italic }
+.codehilite .err { color:#960050;background-color:#1e0010}
+.codehilite .k   { color:#c678dd}
+.codehilite .l   { color:#98c379}
+.codehilite .n   { color:#abb2bf}
+.codehilite .o   { color:#abb2bf}
+.codehilite .p   { color:#abb2bf}
+.codehilite .cm  { color:#5c6370;font-style:italic}
+.codehilite .cp  { color:#5c6370;font-style:italic}
+.codehilite .c1  { color:#5c6370;font-style:italic}
+.codehilite .cs  { color:#5c6370;font-style:italic}
+.codehilite .ge  { font-style:italic}
+.codehilite .gs  { font-weight:700}
+.codehilite .kc  { color:#c678dd}
+.codehilite .kd  { color:#c678dd}
+.codehilite .kn  { color:#c678dd}
+.codehilite .kp  { color:#c678dd}
+.codehilite .kr  { color:#c678dd}
+.codehilite .kt  { color:#c678dd}
+.codehilite .ld  { color:#98c379}
+.codehilite .m   { color:#d19a66}
+.codehilite .s   { color:#98c379}
+.codehilite .na  { color:#d19a66}
+.codehilite .nb  { color:#e5c07b}
+.codehilite .nc  { color:#e5c07b}
+.codehilite .no  { color:#e5c07b}
+.codehilite .nd  { color:#e5c07b}
+.codehilite .ni  { color:#e5c07b}
+.codehilite .ne  { color:#e5c07b}
+.codehilite .nf  { color:#abb2bf}
+.codehilite .nl  { color:#e5c07b}
+.codehilite .nn  { color:#abb2bf}
+.codehilite .nx  { color:#abb2bf}
+.codehilite .py  { color:#e5c07b}
+.codehilite .nt  { color:#e06c75}
+.codehilite .nv  { color:#e5c07b}
+.codehilite .ow  { font-weight:700}
+.codehilite .w   { color:#f8f8f2}
+.codehilite .mf  { color:#d19a66}
+.codehilite .mh  { color:#d19a66}
+.codehilite .mi  { color:#d19a66}
+.codehilite .mo  { color:#d19a66}
+.codehilite .sb  { color:#98c379}
+.codehilite .sc  { color:#98c379}
+.codehilite .sd  { color:#98c379}
+.codehilite .s2  { color:#98c379}
+.codehilite .se  { color:#98c379}
+.codehilite .sh  { color:#98c379}
+.codehilite .si  { color:#98c379}
+.codehilite .sx  { color:#98c379}
+.codehilite .sr  { color:#56b6c2}
+.codehilite .s1  { color:#98c379}
+.codehilite .ss  { color:#56b6c2}
+.codehilite .bp  { color:#e5c07b}
+.codehilite .vc  { color:#e5c07b}
+.codehilite .vg  { color:#e5c07b}
+.codehilite .vi  { color:#e06c75}
+.codehilite .il  { color:#d19a66}
+.codehilite .gu  { color:#75715e}
+.codehilite .gd  { color:#f92672}
+.codehilite .gi  { color:#a6e22e}

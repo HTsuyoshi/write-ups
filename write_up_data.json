@@ -1,0 +1,46 @@
+{
+	"HTB_2024": [
+	{
+		"path": "write-ups/HTB_2024/forensics/it_has_begun.md",
+		"category": "Forensics",
+		"difficulty": "Very Easy",
+		"files": [ "script.sh" ],
+		"title": "It has begun"
+	},
+	{
+		"path": "write-ups/HTB_2024/forensics/an_unusual_sighting.md",
+		"category": "Forensics",
+		"difficulty": "Very easy",
+		"files": [ "bash_history.txt", "sshd.log" ],
+		"title": "An unusual sighting"
+	},
+	{
+		"path": "write-ups/HTB_2024/forensics/urgent.md",
+		"category": "Forensics",
+		"difficulty": "Very easy",
+		"files": [ "Urgent Faction Recruitment Opportunity - Join Forces Against KORP#U2122 Tyranny.eml" ],
+		"title": "Urgent"
+	},
+	{
+		"path": "write-ups/HTB_2024/forensics/fake_boost.md",
+		"category": "Forensics",
+		"difficulty": "Easy",
+		"files": [ "fake_boost.pcapng" ],
+		"title": "Fake Boost"
+	},
+	{
+		"path": "write-ups/HTB_2024/forensics/phreak.md",
+		"category": "Forensics",
+		"difficulty": "Medium",
+		"files": [ "phreaky.pcap" ],
+		"title": "Phreak"
+	},
+	{
+		"path": "write-ups/HTB_2024/forensics/game_invitation.md",
+		"category": "Forensics",
+		"difficulty": "Hard",
+		"files": [ "invitation.docm" ],
+		"title": "Game Invitation"
+	}
+	]
+}

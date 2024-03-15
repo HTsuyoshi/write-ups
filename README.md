@@ -1,12 +1,17 @@
 # Write-up
 
-Category | Website
--- | --
-Everything | Ringzer0
-Cryptography | Criptohack
-Everything | picoCTF
-Everything | over the wire
-Everything | reply
-Everything | TryHackMe
-Everything | HTB
-Web | DVWA
+My CTF write-ups.
+
+### Preview
+
+Try the application in the following [link](https://ctf.htsuyoshiy.online/lyrics) :D
+
+## App
+
+`write_up_data.json`: Ctf data to build the website
+
+`dist`: Output folder
+
+`static`: Static assets (CSS, imgs, etc...)
+
+`write-ups`: Write-ups in markdown

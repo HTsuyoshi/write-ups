@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<title>{{ site.title }}</title>
+
+		<meta charset='UTF-8'>
+		<meta name='description' content='{{ site.description }}'>
+		<meta name='keywords' content='Student'>
+
+		<meta name='author' content='doombringer_azurai'>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+		<meta http-equiv='Content-Security-Policy' content="connect-src 'self'">
+		<script type='application/ld+json'>
+			{'description':'{{ site.description }}','url':'{{ site.url }}','@type':'WebSite','headline':'{{ site.title }}','name':'{{ site.title }}'}</script>
+
+		<link href='https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,300..700;1,300..700&display=swap' rel='stylesheet'>
+		<link rel='stylesheet' href='/assets/css/style.css' />
+	</head>
+	<body>
+		<center><h1>doombringer_azurai's files</h1></center>
+		<div id='content'>
+<pre>.
+{% for ctf, categories in site.ctfs.items()%}└── <span class='sec-color'>{{ ctf }}</span>
+{% for category, write_ups in categories.items()%}    └── {{ category }}
+{% for write_up in write_ups%}        └── <a href="write-ups/{{ ctf }}/{{ category }}/{{ write_up }}.html">{{ write_up }}</a>
+{% endfor %}{% endfor %}{% endfor %}
+			</pre>
+		</div>
+		<footer>
+			<a href="https://htsuyoshiy.online/">htsuyoshiy.online</a>
+		</footer>
+	</body>
+</html>

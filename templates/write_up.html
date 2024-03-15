@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<title>{{ write_up.title }}</title>
+
+		<meta charset='UTF-8'>
+		<meta name='description' content='{{ write_up.description }}'>
+		<meta name='keywords' content='{{ write_up.keywords }}'>
+
+		<meta name='author' content='doombringer_azurai'>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+		<meta http-equiv='Content-Security-Policy' content="connect-src 'self'">
+
+		<link rel="preload" href="assets/fonts/scientifica.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+		<link rel='stylesheet' href='/assets/css/pygments.css' />
+		<link rel='stylesheet' href='/assets/css/style.css' />
+	</head>
+	<body>
+		<h1>{{ write_up.title }}</h1>
+		<div id='content'>
+			<p>Difficulty: <span class='sec-color'>{{ write_up.difficulty }}</span></p>
+			<p>Category: <span class='sec-color'>{{ write_up.category }}</span></p>
+			<p>Files: <span class='sec-color'>
+				{% if write_up.files | length %}
+					{{ write_up.files | join(', ') }}
+				{% else %}
+					None
+				{% endif %}
+			</span></p>
+			{{ write_up.content | safe }}
+		</div>
+		<footer>
+			<a href="http://htsuyoshiy.online/">htsuyoshiy.online</a>
+		</footer>
+	</body>
+</html>
