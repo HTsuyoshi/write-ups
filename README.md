@@ -4,7 +4,7 @@ My CTF write-ups.
 
 ### Preview
 
-Try the application in the following [link](https://ctf.htsuyoshiy.online/lyrics) :D
+Try the application in the following [link](https://ctf.htsuyoshiy.online/) :D
 
 ## App
 
